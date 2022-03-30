@@ -6,16 +6,11 @@
     "default_popup": "index.html",
     "default_title": "Now At Twitch"
   },
-  "permissions": [ 
-    "activeTab",
-    "storage",
-    "scripting",
-    "tabs"
-  ],
+  "permissions": ["activeTab", "storage", "scripting", "tabs"],
   "options_page": "options.html",
   "icons": {
     "16": "logo192.png",
     "48": "logo192.png",
     "128": "logo192.png"
-  } 
+  }
 }
