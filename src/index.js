@@ -5,16 +5,14 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import GlobalStyle from "./styles/globalStyles";
-import Router from "./utils/router";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
       <GlobalStyle />
-      <Router />
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );
